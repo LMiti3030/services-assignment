@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CounterService } from './shared/counter.service';
+import { UsersService } from './shared/users.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'services-assignment';
+
+
 }
